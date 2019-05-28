@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #292C34;
+}
+header{
+  background: white;
+  padding: 20px;
+}
+header>h1{
+  color: #24272E;
+  text-align: center;
+  font-family:inherit;
+}
+.Scoreboard{
+  margin: 20px auto;
+  border:3px solid white;
+  border-radius: 4px;
+  text-align: center;
+  width: 200px;
+  color: white;
+  font-size: 40px;
+  font-family: cursive;
+  position: relative;
+}
+.badge{
+  background-color: #E25840;
+  color: white;
+  font-size: 14px;
+  padding: 1px 6px;
+  font-family: sans-serif;
+}
+#user-label{
+  position: absolute;
+  top: 20px;
+  left: -20px;
+}
+#computer-label{
+  position: absolute;
+  top: 20px;
+  right: -25px;
+}
+.result{
+  color: white;
+  font-size: 40px;
+}
+.result>p{
+text-align: center;
+}
+.choices{
+  text-align: center;
+  margin-top: 50px;
+}
+.choice{
+  display:inline-block;
+  margin: 0px 10px;
+}
+.choice:hover{
+  cursor: pointer;
+  background: black;
+}
+#action-msg{
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  margin-top: 30px;
+}
